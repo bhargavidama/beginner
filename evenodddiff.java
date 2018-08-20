@@ -13,7 +13,7 @@ class Ideone
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
 		m=sc.nextInt();
-		int a=n=m;
+		int a=n-m;
 		if((a%2==0))
 		{
 			System.out.println("even");
